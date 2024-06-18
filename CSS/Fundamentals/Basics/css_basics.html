@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <!-- internal example -->
+    <style> 
+    body{
+        background-color: lightgray;
+        } 
+    p{
+        font-size:16px;
+        } 
+
+    .special-text {color: darkcyan; font-weight: bold;}
+        
+    #main-heading{color: darkmagenta; font-size: 24px;}
+
+    .urgent-text {color: red !important;}
+    </style>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Selectors -->
+     
+</head>
+<body>
+    <!-- inline example -->
+    <h1 id= "main-heading" style="color: royalblue;">Hello World</h1>
+
+
+    <!--External example-->
+
+    <h2>This should be italicized and slate grey</h2>
+
+    <ul>
+        <li>Circular</li>
+        <li>List</li>
+        <li>Format</li>
+    </ul>
+
+    <a href="https://www.google.com">This should be teal and have no decoration</a>
+
+    <p class="urgent-text">This is urgent-text</p>
+
+
+    <article>
+        <p>This means it will be indented in accordance with styles.css because it is a direct child of an article, not just a descendant</p>
+
+        <div>
+            <p>This has no indent but still has the color, because it is a descendant of article but not a direct child</p>
+        </div>
+    </article>
+
+    <div class="box">
+        This div is styled with the box class, demonstrating margins and shit
+    </div>
+</body>
+</html>

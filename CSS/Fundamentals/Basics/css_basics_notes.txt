@@ -1,0 +1,90 @@
+Metaphor: stepping into art gallery where HTML sets the stage and CSS enhances each display with colors, styles and sizes
+
+CSS - acts as the stylist of the web, defining how HTML elements appear on screen
+
+CSS syntax - set of rules that define styles for HTML elements
+
+    selectors - pinpoint the HTML elements you want to style; act like tags labeling each art piece in our digital gallery
+
+        - class selectors
+            - like fabric patterns, applied to multiple elements to unify their design
+
+            - use .classname
+
+            - e.g. .special-text {color: darkcyan; font-weight: bold;}
+
+        - ID selectors
+            - custom fits, unique for styling singular elements
+
+            - use #idname
+
+            - e.g. #main-heading{color: darkmagenta; font-size: 24px;}
+
+        - !important rule
+            - override button in our kit; it's use is best kept minial to avoid CSS chaos
+
+            - e.g. .urgent-text {color: red !important;}
+
+        - grouping selectors
+            - can apply a single style to multiple elements at once
+
+            - e.g. h1, h2, h3 {color: red;}
+
+        - combinators
+            - specify relationships between selectors, tailoring styles based on their hierarchy and proximity
+
+            - e.g. article p{color: slategray;}     article > p {margin-left: 20px}
+
+        
+
+    declaration blocks - contain one or more declarations separated by semicolons; each declaration includes a css property and value
+
+Incorporating CSS
+
+    Inline CSS
+        - like using a fine-tip pen, allowing you to apply styles directly within an HTML tags
+
+        - specific and limited in scope
+
+        - e.g. <h1 style="color: royalblue">Hello World</h1>  #this would just apply to this h1 tag, not all of them
+
+    Internal CSS
+        - uses the <style> element in the HTML <head>, acting like a sketchbook where you define styles specifically for that page
+
+        - e.g. <style> body{background-color: lightgray;} p{font-size:16px;} </style>
+
+    External CSS
+        - involves linking a separate CSS file to your HTML, comparable to a comprehensive art portfolio
+
+        - promotes reuse and organization
+
+        - e.g.  <head><link rel="stylesheet" href="styles.css"></head>
+
+IN ORDER OF IMPORTANCE (more specific is higher priority):
+    - !important
+    - inline elements
+    - id
+    - class
+    - elements
+
+
+colors, backgrounds and units
+    - units (px, em, rem, %) offer the tape measurer for precise styling
+        em - gets the font size of the nearest parent element
+        rem - gets the font size based off the body size
+        % - refers to the percentage of the parent element
+
+textransform - can capitalize or lowercase entire elements
+
+CSS Box Model
+    - set of rules that define layers for every web element, each serving a unique purpose in determining how that element appears on the page
+
+    Layers of the box:
+
+        content - core of the box, the actual item (picture, text, video, etc.)
+
+        padding - like buble wrap, ensuring the contents don't touch the sides of the box (borders)
+
+        borders - visible edge, defining the outer limits of the content; can be styled (colors, solid, dashes, etc.)
+
+        margin - air in a shippping box, its the space between this box and the other elements

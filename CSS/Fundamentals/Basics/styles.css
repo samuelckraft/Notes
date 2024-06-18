@@ -1,0 +1,28 @@
+h2 {
+    color: darkslategray;
+    font-style: italic;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+a {
+    color: teal;
+    text-decoration: none;
+}
+
+h1, h2, h3 {color: red;}
+
+
+article p{color: slategray;}     
+
+article > p {margin-left: 20px}
+
+.box {
+    margin: 10px;
+    border: 5px double #d82626;
+    padding: 20px;
+    width: fit-content;
+    height: fit-content;
+}
