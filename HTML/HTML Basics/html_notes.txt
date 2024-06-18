@@ -1,0 +1,80 @@
+HTML is the stage set-up for the world wide web
+    -foundation of everything that is built, and structure that holds it all together
+
+    -html acts like the websites skeleton, providing a framework for elements like CSS (costumes and stage design) and Javascript (special effects)
+
+    -html is like a plays script where each instruction is wrapped in 'tags'
+        -tags - basic directions given to "actors" on stage (e.g. <p> is a tag that tells the browser to start a new paragraph)
+
+elements - complete instructions in the script, including both tags and content
+    -e.g. <p> Hello <p> (<p> are tags while Hello is the content)
+
+attributes - provide additional info about elements, akin to a director adding specifics to a scene like emotion or actions
+    -reside in the opening tag and are composed of attribute name and value
+    
+    -e.g. <img src="stage.jpg" alt="Theater Stage"> is an image element where src (source of the image) and alt (alternative text) provide more details about the image element
+
+*Not every tag requires a closing tag
+
+*CREATING A BASIC HTML PAGE STRUCTURE
+    -DOCTYPE - like the curtain raiser, letting the browser know "get ready, and HTML5 performance is starting"
+        <!DOCTYPE html>
+
+    -<html> tag - signifies start and ending of your html document
+        -<head> section - like theater marquee, gives info about the show but not actual content
+            -in the head there is metadata, such as <title>, which will appear in the browser's title bar or tab
+            - can also have links to stylesheets like instructions for costume and set designers
+
+        -<body> section - core of the html document; the real performance, where everything the user interacts with is placed (text, images, videos, links, buttons, etc.)
+
+
+Meta Tags - provide important details about the "performance" but are not visible to the user
+    - act as guides for search engines and browsers to understand and display the content effectively
+
+    Common meta tags
+        - charset - specifies the character encoding for the html document, ensuring correct character display
+            <meta charset="UTF-8"> 
+
+        - viewport - crucial for all responsive design, ensuring proper display on all devices
+            <meta name="viewport" content="width=device-width, intial-scale=1.0">
+
+        - description - concise summary of the page's content, crucial for SEO
+            <meta name="description" content="A warm welcome to our digital theater, shwocasign the 'Hello World' of HTML">
+        
+        - keywords - helps search engines understand the main topics of your page
+            <meta name="keywords" content="HTML, helloworld, webdevelopment, theater">
+
+        - author - credits the creator of the html document
+            <meta name="author" content="Sam Kraft"
+
+
+Basic HTML elements
+    - headings (h1-h6) - serve as scene titles to the play; delineates various sections and topics 
+        <h1> is main title and <h6> is least important
+
+    - paragraphs <p> - function as the dialogue or monologues in the script; make up a majority of the content, delivering a message to the audience
+
+    - text formatting - <b> = bold, <strong> = important bold, <i> = italic, <em> = emphasized italic
+
+    - lists
+        - unordered lists <ul> - employ bullet points; order doesn't matter
+
+        - ordered lists <ol> - resemble step by step guides
+
+        - list item <li> - represents an item in each list
+
+    - hyperlinks and images
+        - hyperlinks <a> - like doors guiding the user to different rooms
+            - href attribute - like creating a portal to another scene or placed
+            
+            <a href="https://example.com">Click here to visit example.com</a>
+
+        - images <img> - add visuals
+            - src attribute - specifies where to find the image
+                <img src="im="scenery">.
+
+            - alt attribute - gives alternate text in case image can't be shown
+
+    - line breaks <br> - initiates a new line without commencing a new paragraph
+
+    - horizontal rules <hr> - symbolizes a visual break in the content

@@ -1,0 +1,48 @@
+Tables - structuring data
+    - <table> - creates the shelf
+    - Table row <tr> - defines the rrows (think of thems as shelves)
+    - Table header <th> used for headers (like category labels)
+    - Table data <tdr> - represents the individual cells (books on the shelf)
+
+Blockquotes/inline quotes
+    - <blockquotes> - used for longer quotes
+    - <q> - used for shorterm inline quotations; don't need to put quotes in the code
+
+Code/preformatted text
+    - <code> - used for inline code elements
+    - <pre> - preserves formatting, which is ideal for larger code blocks; meaning if we indent our code, it indents the text on the webpage
+
+iframe
+    - allows us to put a browser page in our browser page
+    - have to change the watch in the web address to embed
+
+
+Semantic HTML5
+    - like cues in a theatrical production, directing not just the presentation of content, but also imbuing it with significance and origanization
+
+    - Common semantic elements
+        - <header> - acts as intro to your page or a section of it; often contains nav bar, logos, and introductory content
+
+        - <footer> - houses contact info, copyright notices, and links to legal info or related docs
+
+        - <article> - used for self-contained composition in a document, page or site, which is intended to be independently distributable or reusable
+
+        - <section> - like a distinct act in a play, grouping related content together; could be chapters, headers, footers or any other sections of the document
+
+        - <nav> - navigation; akin to a directory or map of the play, guiding user through web page's different scenes/sections
+
+        - <aside> - used for tangentially related content, similar to a sidebar conversation or an aside in a play that complements the main content, like related links
+
+
+New Elements in HTML5
+
+    - <figure> and <figcaption>
+        - <figure> is used to represent self-contained content, often referenced as a single unit from the main flow of the document
+            - e.g. images, diagrams, code snippets, etc.
+        
+        - <figcaption> allows for a caption or description to be directly associated with the figure
+
+    - <main>
+        - represents dominant content of the <body> of a document
+
+        - intended for content that is directly related to or expands upon the central topic of a document, excluding content repeated across pages like headers/footers
