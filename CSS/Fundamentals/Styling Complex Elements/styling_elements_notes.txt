@@ -1,0 +1,38 @@
+Pseudoclasses - start with a colon followed by their name (e.g. :hover)
+    - target elements not just by their type, class or ID but by their state or structure
+
+    - used to style links based on whether or not they've been visited, change appearance of buttons when hovered over, and highlight the first paragraph within each section
+
+    - Common Pseudoclasses:
+
+        :hover - applies styles when the user hovers over an element
+
+        :focus - used for form inputs, buttons and links, this pseudoclass applies styles when an element receives focus
+
+        :first-child - targets the first child element within its parent, allowing for specific styling of the first item in a list, first paragraph of a section, etc.
+
+Styling Elements
+
+    Images
+        - border and shape (border-radius)
+        - size and aspect ratio (weight and height)
+
+    Buttons
+        - colors and gradients (make them stand out or blend)
+        - paddind and borders (make button easily clickable)
+
+    Links
+        - text-decoration (make sure they stand out from the text around them)
+        - hover and active status (:hover, :active, :visited)
+
+    Tables
+        - border and spacing
+            - border-collapse: collapse - ensures borders are unified
+            - padding within th and td for comfortable spacing
+        - header styling
+        - striped rows
+            tr:nth-child(even) {background-color: white}
+            - ^ colors every other row
+        - removing list styles  
+            - list-style-type:none;
+        
