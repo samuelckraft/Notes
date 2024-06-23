@@ -36,3 +36,11 @@ Styling Elements
         - removing list styles  
             - list-style-type:none;
         
+    Forms
+        - form container
+            - set stage with margins, padding and borders
+        - input fields and text areas
+            - uniform styling of these areas
+        - buttons
+        - focus states
+        - checkboxes, radio buttons, selects

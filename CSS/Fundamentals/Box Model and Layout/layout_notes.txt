@@ -1,0 +1,112 @@
+CSS Positioning
+    Static
+        - default setting; sits according to the natural flow of the page, unmoved by positioning commands
+
+    Relative
+        - allows you to move the object relative to where it would normally stand
+
+        e.g. - .item {position: relative; top: 20px; left: 100px;}
+            - this item will now be pushed down 20 pixels and to the right 100 pixels relative to where it would normally fall
+
+    Absolute
+        - positions itself in relation to the nearest positioned ancestor (not static)
+        - element can float in a precise spot, ignoring the traditional flow of the document
+
+        e.g. - .item {position: absolute; right: 0; top: 10px}
+            - this item will now be positioned on the far right side, 10 pixels down from the top
+
+    Fixed
+        - stays in the exact same spot on the viewport, no matter how far you scroll down the path
+
+        e.g. - .item{position:fixed; left: 300px; top:10px}
+            - this item will stay in this exact spot, even when you scroll
+
+    Sticky
+        - mix of static and fixed
+        - toggles between relative and fixed according to the users scroll position
+
+
+CSS Display
+    Block
+        - elements that demand their own space
+        - take up the full width available, stacking vertically
+
+    Inline
+        - aligned side by side
+
+    Inline-Block
+        - aligns, but respects padding and margins
+
+    None
+        - makes the element invisible and removes it from document flow
+
+Floats and Clearing Floats
+    - allows elements to drift left or right depending on the content around them
+
+    - make sure to clear floats so objects don't end up all over the place
+
+Z-index and Overflow
+    Z-index - determines who's on top and who's underneath, allowing intricate layering and interaction
+
+    Overflow - lets you control the excess, whether to clip it, add scroll bars, or let it spill out
+
+
+Flexbox
+https://codepen.io/enxaneta/full/adLPwv/
+    Made up of flex containers and flex items
+        - think of flex container as the campsite, a designated area where your layout will live
+
+        - within this campsite, every piece of content/item is a flex item ready to be positioned how you like
+
+        - to declare a flex container, choose an element to act as the container, such as <div>, and set its display property to flex
+            - all children of .container become flex items
+
+        Main and Cross axis
+            - used to control alignment of items   
+
+            - main runs horizontally, guiding placement of items side by side, while cross runs perpendicular to the main and aligns top to bottom
+        
+        Common Flexbox Patterns
+            - centering content
+                - set justify-content and align-items to center
+
+            - equal distribution
+                - use justify-content:space-around or space-between to give items equal room
+
+            - responsive columns
+                - by setting flex-wrap: wrap on a container, items flow into the next row when the space becomes too narrow
+
+            - vertical stacking
+                - changing the flex-direction: column the items stack on top of each other
+
+CSS Grid
+    Three fundamental concepts
+        - columns/rows
+            - by setting display to grid on a container, you're laying out the grid lines, ready to house your content buildings
+
+        - gaps (or gutters)
+            - spaces between the buildings, providing breathing room for content
+    
+    grid layout
+        - planning the layout by deciding number of rows or columns and how they're arranged
+            - fractional units (fr) - allows your grid columns and rows to take up a fraction of the available space
+
+            - grid lines - can position content in relation to these lines; think of them as roads you can put houses on
+
+    grid template areas
+        - method of creating layout patterns with named areas
+
+Responsive web design
+    mobile vs desktop first approach
+        - mobile means you start small and can add more when you go to larger screens like desktops
+        - desktop means you start large and cut out content when you go to smaller mobile screens
+
+    Media Queries
+        - allow you to apply CSS rules only when certain conditions are met, such as screens being narrower than 600 pixels
+
+        e.g. @media screen and (max-width: 600px) {body {background-color: lightblue;}}
+
+    Images and videos
+        - for images use the srcset attribute in the img tage to provide multiple image sources for different screen sizes
+
+        - for videos wrap them in a container <div> with a percentage based width and using absolute positioning to maintain aspect ratio across devices
