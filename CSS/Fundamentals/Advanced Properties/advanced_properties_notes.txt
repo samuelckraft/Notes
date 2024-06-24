@@ -1,0 +1,52 @@
+RGBA (Red-Green-Blue-Alpha)
+    - first three components control color, but last controls opacity
+
+    - gradients allow us to blend hues together
+        * {
+        background: linear-gradient(to right, rgba(255,99,71,.5), rgba(255,159,64,.5));}
+
+        ^ transitions screen from semi transparent red on the left to equally transparent orange on the right
+
+
+        background: radial-gradient(circle, rgba(255,255,255,.6), rgba(0,0,255,.6));
+        ^ transitions screen going out from the center
+
+            - can also specify direction several ways (to right, to bottom left, 180deg)
+
+
+Shadow and text effects
+    Shadows
+        - box shadows - adds depth to web elements
+            - e.g. box-shadow: 0 4px 8px rgba(0, 0, 0, .2) 
+                first number is horizontal shade (shadows to either side), second is vertical (shadows above or below), third is blur (how opaque the shadow fades) and rgba is color
+
+        - text shadow is same as box shadow but with the text in the adapted element
+            - text-shadow: 2px 2px 4px rgba(0, 0, 0, .5);
+
+    Effects
+        Transitions and Animations
+            - transitions is like changing the background color of a button using button {transition: background-color .3s}
+
+            - keyframe animations - allow you to choreograph complex sequences of movement, color and transformations
+                e.g. - below example makes the button pulse from 0% being itself, to 1.1 scale of itself, back to itself
+                @keyframes pulse {
+                    0% {transform: scale(1);}
+                    50% {transform: scale(1.1);}
+                    100% {transform: scale(1);}
+                }
+
+                button {
+                    animation: pulse 2s infinite;
+                }
+
+                e.g. - below example makes image spin every 10 seconds
+                img {
+                    animation: rotate 10s infinite linear;
+                    border-radius: 100%;
+                }
+
+                @keyframes rotate {
+                    from {transform: rotate(0deg);}
+                    to {transform: rotate(360deg);}
+                }
+                
