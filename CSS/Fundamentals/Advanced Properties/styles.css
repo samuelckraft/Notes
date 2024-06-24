@@ -38,7 +38,7 @@ img {
 }
 
 img:hover {
-    opacity:.1;
+    opacity:.1 2s;
 }
 
 @keyframes rotate {

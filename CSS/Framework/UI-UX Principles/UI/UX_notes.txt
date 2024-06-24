@@ -1,0 +1,22 @@
+UI/UX
+
+    - User Interface (UI) - deals with the visual aspects, like colors, typography and layout
+
+    - User Experience (UX) - focuses on the overall enjoyment and interaction a useer has while navigating a website/app
+
+    - Prototyping - functional yet adjustable first rough draft
+        - Adobe XD, Sketch or Figma can turn wireframes into interactive protoypes
+
+    Figma - this is more for front end
+
+        zoom - top right corner
+
+        move around - hold down space bar and drag 
+
+        frame (top left tic-tac-toe) - gives framing options for device you plan to program for; gives recommended/default dimensions of the device
+
+        shape (next to frame) - drag to make shape; can hold down shift to make it on straight line
+
+        text (Times New Roman T) - create text boxes
+
+
