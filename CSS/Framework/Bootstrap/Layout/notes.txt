@@ -1,0 +1,46 @@
+Software framework - lays the groundwork of code, enabling developers to create applications more efficiently and swiftly
+
+Bootstrap - open-source, front-end framework developed by Twitter that simplifies web development by providing a robust set of pre-designed elements and components
+
+
+https://getbootstrap.com/docs/5.3/getting-started/introduction/
+
+https://bootstrap-cheatsheet.themeselection.com/
+    - like having a backpack full of camping essentials so you don't have to waste time getting them all together yourself
+
+Bootstrap layout fundamentals
+    - container - invisible pillars that hold design in place
+        Bootstrap offers two container classes (can use them by wrapping content within a <div> and putting them as the class)
+        - .container - provides a responsive fixed-width container
+
+        - .container-fluid - spans the entire width of the viewport, providing a full-width layout
+
+    Grid system
+        - uses containers, rows and columns to neatly arrange things
+
+            
+
+        - super flexible and built to adjust smoothly, like rearranging cells to make sure the content looks good on any device
+
+        - each .col class within a .row behaves like a fluid column that can span various numbers of grid columns depending on screen size thanks to predefined responsive breakpoints
+
+    Utility classes
+        - handle spacing, positioning and responsiveness of elements
+
+        - can adjust column breaks with classes
+                - .col-6 means that that item will take up 6 of the available 12 columns
+
+                - .col-6 col-sm-3 means that it will take up 6 of the 12 columns, until it reaches the small class then it will only take up 3
+                    - can use any of the breakpoint sizes (sm, md, lg, xl, xxl)
+
+        - gutters - invisible spaces (margins and paddings) betweeen columns
+            - classes like g-2, g-3, etc from 0-5 to allow you to adjust the gutter size
+
+        - displays
+            - .d-none, .d-inline, .d-block enable quick alterastions to element displays
+                - combined with breakpoint prefixes it allows you to show or hide elements based on screen size
+                    -e.g. d-md-none means item disappears after medium size
+
+    Spacing Utility
+        - m for margin and p for paddings
+            - e.g. mt-3 is margin top size of 3, px-2 is padding on the x-axis (left and right) of size 2

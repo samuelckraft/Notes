@@ -1,0 +1,51 @@
+https://getbootstrap.com/docs/5.3/content/typography/
+Typography 
+    Classes to style text
+        - .text-primary - takes on primary color
+
+        - .font-italic - cmon now
+
+        - .text-uppercase - caps locks
+
+        Headings - use tags as classes (.h1-.h6); can make your h3 the size of h1
+
+        Paragraphs
+            - .lead - turns paragraph into leading on with more weight and bigger font
+
+        - .dropdown-divider - helps separate content
+
+        Lists
+            - .list-unstyled - removes list styling
+
+            - .list-inline - inline list items
+
+Colors
+    Predefined colors (use .text-color for text or .bg-color for background)
+        - Primary = blue
+        - Secondary = grey
+        - Success = green
+        - Danger = red
+        - warning = yellow
+        - Info = light blue
+        - Light = white
+        - Dark = black
+
+Images
+    - .img-fluid - ensures that images scale with the size of their container
+
+    - .rounded and .rounded-circle - makes rounded corners or full circle images, respectively
+
+    - align images using .float-start/.float-end and .mx-auto d-block
+
+Tables
+    - .table - instantly turns normal table into clean modern element
+
+    - .table-primary, .table-Secondary, .table-success - provide palette to highlight rows or cells
+
+    - .table-bordered and .table-hover - give border and hover elements
+
+    - .table-striped - striped rows
+
+    - .table-sm - reduces padding and makes rows more snug
+
+    - .table-responsive - ensures table looks great at any size
