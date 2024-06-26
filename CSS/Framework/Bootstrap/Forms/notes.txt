@@ -1,0 +1,26 @@
+https://getbootstrap.com/docs/5.3/forms/overview/
+
+Forms control
+
+    - .form-group - creates a container that groups form elements together, providing structure and styling
+
+    - .form-control - applies bootstrap's styling to the input field, making it appear consistent with other form elements
+
+    - .form-floating - creates floating label effect for form inputs
+        - applied to form group containing an input element, allows label to float above the input field when user starts typing or when input field has content 
+
+    Selects/checks/radios
+
+        - .form-check-input - applied to the input elements (checkboxes or radios) within a form group to style them according to bootstrap's form control design
+
+        - .form-check-label - beautifies the labels associated with the input elements, ensuring proper alignment and spacing while allowing for custom styling options
+
+Form Validation
+
+    - .needs-validation - indicates that a form requires validation before submission
+        - when applied to <form> element, it tells bootstrap that the form fields should be validated according to the specified validation rules
+
+    - .novalidate - applied to a form element to disable browser-based validation
+        - when present, browser's default validation behavior (like displaying error messages or preventing form submission on invalid input) is bypassed
+
+    - .valid-feedback - used to style feedback messages that indicate successful validation of form fields

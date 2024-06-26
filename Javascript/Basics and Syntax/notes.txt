@@ -1,0 +1,43 @@
+HTML is the framework, CSS is the stylist, and Java is the engine behind the scenes making sure everything runs smoothly
+
+Script tag <script> - transports javascript code directly into html files
+
+Inline javascript - adding small snippets of javascript directly into the html code
+
+    - onclick - when we do the action, the code we embed will run 
+
+External javascript - bringing in outside javascript code
+
+
+Priority Level
+    Internal/External depending on which is placed above
+
+    Inline Script
+
+    defer
+
+Output methods
+
+    - alert - writes alert message at top of page
+
+    - logging to the console - writes to the console
+
+    - writing directly to the document - basically prints it in the html document
+
+
+Statements, Syntax and Structure
+    Statements
+        - use ; to terminate statements, {} to define blocks of code, and () to enclose expressions
+
+    
+Variables
+    - containers for storing data
+
+    Declaring Variables
+        - var - used before let and const came around but is avoided now
+            - function level scope, meaning they are accessible throughout the function they're declared in
+
+            - ability to reassign and re-declarevariables in the same scope without errors
+
+        - let - allows value reassignment; block scope, meaning they are only accessible in the blcok they are declared in
+            - can be reassigned within the same block but cannot be re-declared in the same scope

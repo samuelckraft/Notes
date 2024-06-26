@@ -1,0 +1,21 @@
+Nav 
+https://getbootstrap.com/docs/5.0/components/navbar/
+    
+    - .nav-link - use this class with <a href="#id"> to navigate to different parts of a page/to that section/div id
+
+Components
+
+    Alerts - attention grabbing info/components
+
+    Badges - fun and stylish way to highlight components
+
+    Progress bars - exactly what you think
+
+    Popovers - dynamic elements that appear when users hover or click on specific elements
+
+    Cards - allow you to beautifully showcase content, like images or text portions
+
+    Carousels - dynamic component allow you to display a series of content in an interactive slideshow format
+
+    Accordions - collapsible components that help you structure content and save space
+    

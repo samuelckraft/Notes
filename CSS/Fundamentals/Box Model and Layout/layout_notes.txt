@@ -110,3 +110,5 @@ Responsive web design
         - for images use the srcset attribute in the img tage to provide multiple image sources for different screen sizes
 
         - for videos wrap them in a container <div> with a percentage based width and using absolute positioning to maintain aspect ratio across devices
+
+    
