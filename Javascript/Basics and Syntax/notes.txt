@@ -1,3 +1,5 @@
+https://github.com/airbnb/javascript
+
 HTML is the framework, CSS is the stylist, and Java is the engine behind the scenes making sure everything runs smoothly
 
 Script tag <script> - transports javascript code directly into html files
@@ -15,6 +17,26 @@ Priority Level
     Inline Script
 
     defer
+
+Common Keywords
+
+    variable declaration
+        var - has function scope and is reassignable
+        let - has block scope and can be reassigned
+        const - has block scope and can't be reassigned, although the value it holds may be mutable
+
+    function - used to declare a function, which is a block of reusable code
+
+    if, else if, else - used same as python
+
+    for, while, do-while - used for loops
+
+    return - used inside a function to specify the value to be returned when function is called
+
+    typeof - used to determine the type of variable or expression
+
+    console.log - used to log messages or values to the console for debugging purposes
+
 
 Output methods
 
@@ -45,3 +67,62 @@ Variables
 
         - const - constants and immutable values
             - block-scoped and cannot be reassigned or redeclared within the same scope
+
+Data Types - javascript will infer data types based on the value assigned to the variable
+    
+    Primitive Data types - immutable data types that directly store their value
+
+        - strings - textual data enclosed in single or double quotes
+            e.g. - let name = 'John';
+
+        - numbers - numeric values, including integers and floats
+            e.g. let age = 30;
+
+        - booleans - represents true or false values
+            e.g. let isStudent = True
+
+        - undefined - represents a variable that has been declared but not assigned a value
+            e.g. let x;
+
+        - null - represents the absence of a variable
+            e.g. let y = null;
+
+        - symbol - represents unique identifiers
+    
+    Reference Data types - mutable data types that store references to memory locations where data is stored
+
+        - arrays - ordered collections of data
+            e.g. let fruits = ['apple', 'banana', 'orange'];
+
+        - objects - key-value pairs representing complex structures; basically python dictionaries
+            e.g. let person = {name: 'Sam', age: 23}
+
+        - function - subtype of the object data type
+            e.g. function greet(name) {console.log("Hello" + name + "!")}
+
+
+Operators - symbols used to perform operations on variables and values
+
+    Arithmetic operators (+, -, *, /, %)
+
+    Assignment operators (=, +=, -=, *=, /=)
+
+    Comparison operators (==, !=, ===, !==, >, <, >=, <=)
+        === checks if values are equal in both value and type
+
+        !== checks if values are not equal in either value or type
+
+    Logical operators (&&, ||, !)
+        && returns true if values on both sides are true, otherwise it returns false
+
+        || returns true if at least one of the values on either side are true
+
+        ! reverses the boolean value of its operand, returning True if its False and False if it's true
+
+
+Type conversion
+    - typeof operator - returns a string giving us the type of the operand
+
+    - javascript performs automatic type conversion when operators are applied to values of different types
+
+

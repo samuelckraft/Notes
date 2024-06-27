@@ -1,0 +1,49 @@
+Conditional statements
+    - if (expression) {code}
+
+    - else if (expression) {code}
+
+    - else (expression) {code}
+
+Loops
+    - for - begins with initialization, then condition, then increment; good if you know number of iterations or iterating through array
+        e.g. for (initialization; condition; increment) {code}
+        e.g. for (let i = 0; i<5; i++) {console.log("Iteration:", i)}
+
+        for in - designed for iterating through iterable objects like arrays or strings
+            - lists in javascript are subsets of objects, meaning dictionaries, so for first example in script it's reading the values in the list as key-value pairs, hence why it is returning the index instead of the value
+
+
+    - while
+
+    - do ... while 
+        - similar to while but always executes the code at least once before checking the condition
+
+Increment and decrement arithmetic
+    - ++ - increases value of a variable by 1
+
+    - -- - decreases value of a variable by 1
+
+    - if you put the ++ or -- before the variable, it will log it as changed in that function, but if you put it after it will change the variable in future calls
+
+Functions
+    - can be declared using the function keyword followed by a name and a block of code enclosed in curly braces
+
+    e.g. function name(parameters) {code}
+
+Scope and closures
+    - scope - refers to the context in which variables are declared and accessible
+
+        Two types
+            local scope - variables declared within a function
+
+            global scope - variabled declared outside any function
+
+    - closures - occurs when a function retains access to variables from its outer scope even after the outer function has finished executing
+
+Arrow Functions
+    - lexical 'this' binding - unlike traditional functions, arrow functions do not have their own 'this' context, instead inheriting the 'this' value from the surrounding code when they are defined
+
+    - no binding of 'arguments' - do not have their own 'arguments' function, instead inheriting the 'arguments' from the enclosing scope
+
+    - implicit return - implictly return the result of the expression without needing the return keyword for single expressions
