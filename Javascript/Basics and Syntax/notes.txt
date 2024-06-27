@@ -41,3 +41,7 @@ Variables
 
         - let - allows value reassignment; block scope, meaning they are only accessible in the blcok they are declared in
             - can be reassigned within the same block but cannot be re-declared in the same scope
+            - not "hoistes", meaning they are not accessible before their declaration in the code
+
+        - const - constants and immutable values
+            - block-scoped and cannot be reassigned or redeclared within the same scope
