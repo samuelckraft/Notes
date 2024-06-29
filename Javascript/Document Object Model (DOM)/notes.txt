@@ -1,0 +1,42 @@
+https://developer.mozilla.org/en-US/docs/Web/Events
+
+https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model
+
+
+Common HTML Events
+    - onclick - triggered by clicking on an element
+
+    - onmouseover - activated when the mouse pointer hovers over an element
+
+    - onmouseout - occurs when mouse pointer leaves an element
+
+    - onkeydown - triggered by pressing a key on the keyboard
+
+    - onsubmit - occurs when a form is submitted
+
+    - onchange - activated when the value of an input element changes
+
+    - onfocus - triggers when an element gains focus
+
+Document manipulation
+    - getElementById() - retrieves an HTML element by its unique ID 
+
+    - getElementsByClassName() - retrieves a collection of HTML elements with a specific class name
+
+    - createElement() - creates a new HTML element dynamically
+
+    - appendChild() - appends a new child element to an existing parent element
+
+Elemment manipulation
+    - setAttribute() - sets or updates the value of a specified attribute for an element
+
+    - innerHTML - sets or returns the HTML content (including tags) of an element
+
+
+Form manipulation
+    - submit() - submits a form programmatically
+
+    - reset() - resets all form controls to their default values
+
+    - elements - provides access to the forms individual elements by their name or index
+

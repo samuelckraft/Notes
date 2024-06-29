@@ -1,0 +1,41 @@
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
+
+Array methods
+    - push - add items to end of the array
+
+    - pop - removes last item in an array
+
+    - map - created a new array by applying a function to each element of an existing array
+
+    - filter - constructs new array by selectively including elements that meet a specified condition
+
+    - reduce - calculates a single value from an array byu applying a function to the accumulator and each element
+
+    - sorting - sorting
+
+    - iterating - can use for loop or foreach
+
+    - destructuring - extracting it's content individually
+
+    - spread - enables you to spread array elements into a new array or function arguments
+
+    - rest - allows you to collect multiple function arguments into a single array parameter, simplifying function definitions
+
+
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String
+Strings
+    - length
+
+    - toUpperCase
+
+    - substring(start, end)
+
+    - split()
+
+    Regular expressions
+        - defined using slashes (/regex/) and consist of patterns to match against strings
+
+        - test method - checks if a string matches a regex pattern; returns true or false
+
+        - match method - extracts substrings that match the pattern

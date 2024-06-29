@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Javascript</title>
+
+    <script src="commonevents.js" defer></script>
+</head>
+
+
+<body>
+    
+    <button onclick="handleButtonClick()">Click me</button>
+
+    <div onmouseover="handleMouseOver()" onmouseout="handleMouseOut()"> Hover Over me </div>
+
+    <input type="text" onkeydown="handleKeyDown(event)">
+
+    <form onsubmit="handleSubmit(event)">
+        <input type="text" name="username" placeholder="Enter Username">
+        <button type="submit">Submit</button>
+    </form>
+
+    <input type="text" onchange="handleChange(event)" placeholder="Type here">
+
+    <input type="text" onfocus="handleFocus()" placeholder="Click to focus">
+</body>
+</html>

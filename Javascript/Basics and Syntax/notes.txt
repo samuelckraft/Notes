@@ -1,5 +1,7 @@
 https://github.com/airbnb/javascript
 
+https://www.w3schools.com/js/default.asp
+
 HTML is the framework, CSS is the stylist, and Java is the engine behind the scenes making sure everything runs smoothly
 
 Script tag <script> - transports javascript code directly into html files

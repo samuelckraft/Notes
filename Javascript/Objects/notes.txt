@@ -1,0 +1,22 @@
+Objects
+    - can access object properties through dot or bracket notation
+
+    - object methods - allow you to encapsulate functionality within the object
+
+    - 'this' keyword - refers to the current object context; by using this you can accss and manilpulate properties and methods within the object
+
+    - constructors and prototypes - serve as blueprints for creating objects with similar properties and methods
+        - constructors - initialize object properties
+
+        - prototypes - define shared methods across multiple objects
+
+    Built-in Objects
+        Math object
+            - holds arithmetic function (add, subtract, multiply and divide)
+
+            - holds constants (pi and Euler's number)
+
+            - holds solutions for more complex function (rounding, absolute values, random numbers)
+
+        Date object
+            - lets us handle dates, times and everything in between
